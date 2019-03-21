@@ -5,7 +5,7 @@
 const TYPE = Symbol('type');
 const CLOSED = Symbol('closed');
 
-module.exports = class Blob {
+class Blob {
     constructor() {
         Object.defineProperty(this, Symbol.toStringTag, {
             value: 'Blob',
@@ -102,3 +102,5 @@ Object.defineProperty(Blob.prototype, Symbol.toStringTag, {
     enumerable: false,
     configurable: true
 });
+
+module.exports = Blob;
