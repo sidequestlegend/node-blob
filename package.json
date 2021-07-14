@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "A node.js based blob implementation - designed to work with node, not the browser.",
   "homepage": "https://github.com/shaneharris/node-blob",
-  "main": "server.js",
+  "main": "index.js",
   "keywords": [
     "node.js",
     "blob"
